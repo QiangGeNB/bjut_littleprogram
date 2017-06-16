@@ -1,0 +1,15 @@
+<view class="view-all">
+    <image src="/images/background.jpg" class="background" mode="aspectFill"></image>
+    <view class="content">
+      <view class="content2">
+         <image src="/images/bjut.png" class="logo"></image>
+         <view class="time">情人节</view>
+         <view class="name">崔遥</view>
+         <view class="zai">在</view>
+         <view class="location">信息楼</view>
+         <view class="with">和学长</view>
+         <view class="action">讨论了如何通过传感器（例如CMOS）来获得数据...</view>
+         <view class="result"></view>
+      </view>
+    </view>
+</view>

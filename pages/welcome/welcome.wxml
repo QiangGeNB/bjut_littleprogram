@@ -1,0 +1,11 @@
+<view class="all">
+  <image src="/images/background.jpg" class="background" mode="aspectFill"></image>
+  <view class="content">
+    <view class="input-name">
+      请输入您的姓名：
+    </view>
+    <input value="{{userName}}" class="input" placeholder="请输入你的姓名" />
+    <button bindtap="jump">jump</button>
+  </view>
+</view>
+
