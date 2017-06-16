@@ -4,8 +4,7 @@
     <view class="input-name">
       请输入您的姓名：
     </view>
-    <input value="{{userName}}" class="input" placeholder="请输入你的姓名" />
-    <button bindtap="jump">jump</button>
+    <input value="{{userName}}" class="input" placeholder="请输入你的姓名" bindinput="userNameInput"/>
+    <button bindtap="jump" class="jump">生成你的毕业故事</button>
   </view>
 </view>
-

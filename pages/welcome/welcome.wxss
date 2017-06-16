@@ -18,8 +18,7 @@
   height: 75vw;
   padding: 20px;
   background: rgba(255,255,255,0.5);
-  border-top-left-radius: 5%;
-  border-bottom-right-radius: 5%;
+border-radius: 5%;
 }
 
 .input{
@@ -32,4 +31,13 @@
   text-align:center;
   font-weight: bold;
   font-family: MicroSoft YaHei;
+}
+
+.jump{
+  width: 70%;
+  border: 1px solid orangered;
+  background-color: rgba(255,255,255,0);
+  font-size: 3.5vw;
+  color: red;
+  font-weight: bold;
 }

@@ -1,0 +1,14 @@
+<template name="no1">
+  <view class="content">
+    <view class="content2">
+      <image src="/images/bjut.png" class="logo"></image>
+      <view class="time">{{time}}</view>
+      <view class="name">{{name}}</view>
+      <view class="zai">在</view>
+      <view class="location">{{location}}</view>
+      <view class="with">和学长</view>
+      <view class="action">{{action}}</view>
+      <view class="result"></view>
+    </view>
+  </view>
+</template>
