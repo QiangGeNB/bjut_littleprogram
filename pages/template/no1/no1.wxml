@@ -6,7 +6,7 @@
       <view class="name">{{name}}</view>
       <view class="zai">在</view>
       <view class="location">{{location}}</view>
-      <view class="with">和学长</view>
+      <view class="with">和{{target}}</view>
       <view class="action">{{action}}</view>
       <view class="result"></view>
     </view>
