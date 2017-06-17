@@ -2,7 +2,7 @@
     <view class="content">
         <image class="paper" src="/images/paper.png"></image>
         <view class="text">
-            <text class="remeber">还记得吗，</text>
+            <text class="remeber"> 还记得吗...</text>
             <view class="text_real">
             {{time}}那天，{{name}}和{{target}}，在{{location}}{{action}}，{{result}}。
             </view>
