@@ -2,6 +2,6 @@
 <view class="view-all">
   <image src="/images/background.jpg" class="background" mode="aspectFill"></image>
   <block>
-    <template is="no1" data="{{name,time,location,action,target}}"/>
+    <template is="no1" data="{{name,time,location,action,target,result}}"/>
   </block>
 </view>

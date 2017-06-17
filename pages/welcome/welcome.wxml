@@ -1,10 +1,27 @@
 <view class="all">
+  <view class="filter"></view>
   <image src="/images/background.jpg" class="background" mode="aspectFill"></image>
+  <image animation="{{biyejiAnimationData}}" src="/images/biyeji.png" class="biyeji" mode="aspectFit"></image>
+  <image animation="{{titleAnimationData}}" src="/images/title.png" class="title" mode="aspectFit"></image>
   <view class="content">
     <view class="input-name">
-      请输入您的姓名：
     </view>
-    <input value="{{userName}}" class="input" placeholder="请输入你的姓名" bindinput="userNameInput"/>
-    <button bindtap="jump" class="jump">生成你的毕业故事</button>
+    <input value="{{userName}}" class="input" placeholder="请输入你的姓名" maxlength="8" bindinput="userNameInput" placeholder-style="color:rgba(255,3,3,0.5);font-size:4vw;"/>
+    <view animation="{{inputAnimationData}}" bindtap="jump" class="jump" >
+      <view class="but_text">生成你的</view>
+      <image class="story" src="/images/story.png" mode="aspectFit"></image>
+    </view>
+  </view>
+  <view class="logo">
+   <view class="logo_content line-right"> 
+      <view class="logo_left">
+        <text class="logo_text">北京工业大学研究生学生会</text>
+        <image class="_logo" src="/images/GU_logo.png"></image>       
+      </view> 
+   </view>
+    <view class="logo_content">
+      <image class="_logo" src="/images/XX_logo.png"></image>
+      <text class="logo_text">北京工业大学信息学部学生会</text>
+    </view>
   </view>
 </view>

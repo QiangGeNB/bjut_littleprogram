@@ -3,7 +3,10 @@ var app = getApp();
 Page({
   data: {
     userName: "",
-    userNameInput: ""
+    userNameInput: "",
+    inputAnimationData: "",
+    biyejiAnimationData: "",
+    titleAnimationData:""
   },
   onLoad: function (options) {
     var self = this;
@@ -34,6 +37,39 @@ Page({
       });
     }
   },
+
+
+
+  onShow: function(){
+    var biyejiAnimationData = wx.createAnimation({
+      duration: 1000,
+      timingFunction: "ease"
+    });
+    var titleAnimationData = wx.createAnimation({
+      duration: 1000,
+      timingFunction: "ease",
+      delay: 1000
+    });
+    var inputAnimationData = wx.createAnimation({
+      duration: 2500,
+      timingFunction: "ease",
+      delay:2000
+    });
+
+    this.biyejiAnimationData = inputAnimationData;
+    biyejiAnimationData.opacity(1).step();
+    this.titleAnimationData = inputAnimationData;
+    titleAnimationData.opacity(1).step();
+    this.inputAnimationData = inputAnimationData;
+    inputAnimationData.opacity(1).step();
+
+    this.setData({
+      biyejiAnimationData: biyejiAnimationData,
+      titleAnimationData: titleAnimationData,
+      inputAnimationData: inputAnimationData
+    })
+  },
+
   jump: function () {
     wx.navigateTo({
       url: '/pages/index/index?userName=' + this.data.userName
