@@ -7,7 +7,7 @@
 }
 .content{
     position: relative;
-    height: 80vw;
+    height: 70vw;
     width: 70vw;
     margin: 10vw auto;
     z-index: -10;
@@ -18,7 +18,7 @@
     left: 0;
     top: 0;
     display: block;
-    height: 80vw;
+    height: 70vw;
     width: 70vw;
     z-index: -10;
     opacity: 0.9;

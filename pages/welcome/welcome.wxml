@@ -8,8 +8,8 @@
     </view>
     <input value="{{userName}}" class="input" placeholder="请输入你的姓名" maxlength="8" bindinput="userNameInput" placeholder-style="color:rgba(255,3,3,0.5);font-size:4vw;"/>
     <view animation="{{inputAnimationData}}" bindtap="jump" class="jump" >
-      <view class="but_text">生成你的</view>
-      <image class="story" src="/images/story.png" mode="aspectFit"></image>
+      <view class="but_text">点击生成你的</view>
+      <image bindtap="jump" class="story" src="/images/story.png" mode="aspectFit"></image>
     </view>
   </view>
   <view class="logo">

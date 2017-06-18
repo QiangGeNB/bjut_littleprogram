@@ -1,7 +1,8 @@
 <import src="../template/no1/no1.wxml"/>
 <view class="view-all">
-  <image src="/images/background.jpg" class="background" mode="aspectFill"></image>
+  <image src="/images/background2.jpg" class="background" mode="aspectFill"></image>
   <block>
     <template is="no1" data="{{name,time,location,action,target,result}}"/>
   </block>
+  <image class="test" src="/images/test2.png" mode="aspectFit"></image>
 </view>

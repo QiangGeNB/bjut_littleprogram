@@ -1,8 +1,8 @@
 {
   "pages":[
-      
+      "pages/index/index",
     "pages/welcome/welcome",
-    "pages/index/index",
+    
     "pages/template/no1/no1"
   ],
   "window":{
