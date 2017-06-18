@@ -7,9 +7,8 @@
 }
 .content{
     position: relative;
-    height: 70vw;
+    height: 80vw;
     width: 70vw;
-
     margin: 10vw auto;
     z-index: -10;
 }
@@ -19,9 +18,10 @@
     left: 0;
     top: 0;
     display: block;
-    height: 70vw;
+    height: 80vw;
     width: 70vw;
     z-index: -10;
+    opacity: 0.9;
 }
 
 .text{
@@ -31,10 +31,17 @@
 }
 
 .remeber{
-    
+    font-weight: 800;
+    font-size: 8vw;
 }
 .text_real{
     margin-top: 4vw;
     line-height: 8vw;
     font-size: 5vw;
+}
+
+.reminder-wrapper{
+    padding: 0vw 9vw;
+    z-index: 100;
+    font-size: 4vw;
 }

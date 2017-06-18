@@ -7,6 +7,9 @@
             {{time}}那天，{{name}}和{{target}}，在{{location}}{{action}}，{{result}}。
             </view>
         </view>
+        <view class="reminder-wrapper">
+          <view class="reminder-content">6月23日北京工业大学毕业典礼！咱们不见不散！</view>
+        </view>
     </view>
 </template>
 
