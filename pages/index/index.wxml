@@ -1,9 +1,12 @@
 <import src="../template/no1/no1.wxml"/>
 <view class="view-all">
+<view class="filter"></view>
   <image src="/images/background2.jpg" class="background" mode="aspectFill"></image>
   <block>
     <template is="no1" data="{{name,time,location,action,target,result}}"/>
   </block>
-  <image class="date" src="/images/date.png" mode="aspectFit"></image>
-  <image class="test" src="/images/test2.png" mode="aspectFit"></image>
+  <image animation="{{first_animationData}}" class="date" src="/images/date.png" mode="aspectFit"></image>
+  <image animation="{{first_animationData}}" class="biyedianli" src="/images/biyedianli.png" mode="aspectFit"></image>
+  <image animation="{{second_animation}}" class="bujianbusan bujian" src="/images/bujian.png" mode="aspectFit"></image>
+  <image animation="{{second_animation}}" class="bujianbusan busan" src="/images/busan.png" mode="aspectFit"></image>
 </view>
