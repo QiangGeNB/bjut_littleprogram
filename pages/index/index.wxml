@@ -4,5 +4,6 @@
   <block>
     <template is="no1" data="{{name,time,location,action,target,result}}"/>
   </block>
+  <image class="date" src="/images/date.png" mode="aspectFit"></image>
   <image class="test" src="/images/test2.png" mode="aspectFit"></image>
 </view>

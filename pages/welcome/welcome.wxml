@@ -1,22 +1,23 @@
 <view class="all">
   <view class="filter"></view>
-  <image src="/images/background.jpg" class="background" mode="aspectFill"></image>
-  <image animation="{{biyejiAnimationData}}" src="/images/biyeji.png" class="biyeji" mode="aspectFit"></image>
-  <image animation="{{titleAnimationData}}" src="/images/title.png" class="title" mode="aspectFit"></image>
+  <image src="http://www.helloeg.cn/images/background.jpg" class="background" mode="aspectFill"></image>
+  <!--<image src="/images/background.jpg" class="background" mode="aspectFill"></image>-->
+  <image animation="{{biyejiAnimationData}}" src="http://www.helloeg.cn/images/biyeji.png" class="biyeji" mode="aspectFit"></image>
+  <image animation="{{titleAnimationData}}" src="http://www.helloeg.cn/images/title.png" class="title" mode="aspectFit"></image>
   <view class="content">
     <view class="input-name">
     </view>
     <input value="{{userName}}" class="input" placeholder="请输入你的姓名" maxlength="8" bindinput="userNameInput" placeholder-style="color:rgba(255,3,3,0.5);font-size:4vw;"/>
     <view animation="{{inputAnimationData}}" bindtap="jump" class="jump" >
       <view class="but_text">点击生成你的</view>
-      <image bindtap="jump" class="story" src="/images/story.png" mode="aspectFit"></image>
+      <image bindtap="jump" class="story" src="http://www.helloeg.cn/images/story.png" mode="aspectFit"></image>
     </view>
   </view>
   <view class="logo">
    <view class="logo_content line-right"> 
       <view class="logo_left">
         <text class="logo_text">北京工业大学研究生学生会</text>
-        <image class="_logo" src="/images/GU_logo.png"></image>       
+        <image class="_logo" src="http://www.helloeg.cn/images/GU_logo.png"></image>       
       </view> 
    </view>
     <view class="logo_content">
