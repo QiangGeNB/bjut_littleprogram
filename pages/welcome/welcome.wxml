@@ -1,6 +1,6 @@
 <view class="all">
   <view class="filter"></view>
-  <image src="http://www.helloeg.cn/images/background.jpg" class="background" mode="aspectFill"></image>
+  <image src="/images/background.jpeg" class="background" mode="aspectFill"></image>
   <!--<image src="/images/background.jpg" class="background" mode="aspectFill"></image>-->
   <image animation="{{biyejiAnimationData}}" src="http://www.helloeg.cn/images/biyeji.png" class="biyeji" mode="aspectFit"></image>
   <image animation="{{titleAnimationData}}" src="http://www.helloeg.cn/images/title.png" class="title" mode="aspectFit"></image>
