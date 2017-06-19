@@ -75,7 +75,7 @@ Page({
     })
   },
 
-  jump: function () {
+  jump_fun: function () {
     wx.navigateTo({
       url: '/pages/index/index?userName=' + this.data.userName
     })

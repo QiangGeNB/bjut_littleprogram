@@ -1,6 +1,6 @@
 <template name="no1">
     <view class="content">
-        <image class="paper" src="/images/paper.png"></image>
+        <image class="paper" src="http://www.helloeg.cn/images/paper.png"></image>
         <view class="text">
             <text class="remeber"> 还记得吗...</text>
             <view class="text_real">

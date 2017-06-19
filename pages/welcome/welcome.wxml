@@ -8,9 +8,9 @@
     <view class="input-name">
     </view>
     <input value="{{userName}}" class="input" placeholder="请输入你的姓名" maxlength="8" bindinput="userNameInput" placeholder-style="color:rgba(255,3,3,0.5);font-size:4vw;"/>
-    <view animation="{{inputAnimationData}}" bindtap="jump" class="jump" >
+    <view animation="{{inputAnimationData}}" bindtap="jump_fun" class="jump" >
       <view class="but_text">点击生成你的</view>
-      <image bindtap="jump" class="story" src="http://www.helloeg.cn/images/story.png" mode="aspectFit"></image>
+      <image bindtap="jump_fun" class="story" src="http://www.helloeg.cn/images/story.png" mode="aspectFit"></image>
     </view>
   </view>
   <view class="logo">
@@ -21,7 +21,7 @@
       </view> 
    </view>
     <view class="logo_content">
-      <image class="_logo" src="/images/XX_logo.png"></image>
+      <image class="_logo" src="http://www.helloeg.cn/images/XX_logo.png"></image>
       <text class="logo_text">北京工业大学信息学部学生会</text>
     </view>
   </view>
