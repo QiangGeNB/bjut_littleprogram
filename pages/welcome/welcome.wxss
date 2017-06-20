@@ -110,13 +110,13 @@
 }
 ._logo{
   display: inline-block;
-  width: 10vw;
-  height: 10vw;
+  width: 8vw;
+  height: 8vw;
   vertical-align: middle;
 }
 .logo_text{
   display: inline-block;
-  font-size: 2vw; 
+  font-size: 1.8vw;
 }
 .logo_left{
   position: absolute;

@@ -16,13 +16,13 @@
   <view class="logo">
    <view class="logo_content line-right"> 
       <view class="logo_left">
-        <text class="logo_text">北京工业大学研究生学生会</text>
+        <text class="logo_text">北京工业大学研究生会</text>
         <image class="_logo" src="http://www.helloeg.cn/images/GU_logo.png"></image>       
       </view> 
    </view>
     <view class="logo_content">
       <image class="_logo" src="http://www.helloeg.cn/images/XX_logo.png"></image>
-      <text class="logo_text">北京工业大学信息学部学生会</text>
+      <text class="logo_text">北京工业大学信息学部研究生会</text>
     </view>
   </view>
 </view>
